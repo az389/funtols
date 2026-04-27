@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تطبيقي الدراسي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📚 تطبيقي الدراسي - جميع المواد</h1>
+
+    <select id="subject">
+      <option value="رياضيات">رياضيات</option>
+      <option value="فيزياء">فيزياء</option>
+      <option value="علوم">علوم</option>
+      <option value="عربية">عربية</option>
+      <option value="فرنسية">فرنسية</option>
+      <option value="إنجليزية">إنجليزية</option>
+      <option value="اجتماعيات">اجتماعيات</option>
+    </select>
+
+    <input type="text" id="noteInput" placeholder="اكتب الدرس أو المهمة...">
+    <button onclick="addNote()">➕ إضافة</button>
+
+    <div id="notes"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
